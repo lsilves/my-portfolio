@@ -7,8 +7,8 @@ import { AssortedGraphicsComponent } from './assorted-graphics/assorted-graphics
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
-  { path: 'webpage-designs', component: WebpageDesignsComponent },
-  { path: 'assorted-graphics', component: AssortedGraphicsComponent },
+  { path: 'webpages', component: WebpageDesignsComponent },
+  { path: 'graphics', component: AssortedGraphicsComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];
 
